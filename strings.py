@@ -18,8 +18,8 @@ ME_MSG = """
 <b>Total Questions :</b> <code>{}</code>
 """
 
-GITHUB_URL = "https://github.com/notPlasticCat"
-DEV_URL = "https://t.me/f22raptor_uwu"
+GITHUB_URL = "https://t.me/YDDCJ"
+DEV_URL = "https://t.me/VR_LA"
 
 AKI_LANG_CODE = {
     'en': 'English',
