@@ -1,8 +1,9 @@
 
 START_MSG = """
-Hello <b>{}</b> ! I'm <b>Akinator(Unofficial)</b>.
-We can play a guessing game.
-Do <code>/play</code>
+- اهلا بك يا { <b>{}</b> } .
+- انا بوت تخمين شخصيات .
+- ارسل /play لبدء اللعب والتخمين .
+- ارسل /language لتغير لغه الاسئله .
 """
 
 ME_MSG = """
