@@ -55,15 +55,15 @@ CHILDMODE_BUTTON = InlineKeyboardMarkup(
 AKI_PLAY_KEYBOARD = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Yes", callback_data='aki_play_0'),
-            InlineKeyboardButton("No", callback_data='aki_play_1'),
-            InlineKeyboardButton("Probably", callback_data='aki_play_3')
+            InlineKeyboardButton("- نعم .", callback_data='aki_play_0'),
+            InlineKeyboardButton("- لا .", callback_data='aki_play_1'),
+            InlineKeyboardButton("- من المحتمل .", callback_data='aki_play_3')
         ],
         [
-            InlineKeyboardButton("I don't know", callback_data='aki_play_2'),
-            InlineKeyboardButton("Probably Not", callback_data='aki_play_4')
+            InlineKeyboardButton("- لا اعلم .", callback_data='aki_play_2'),
+            InlineKeyboardButton("- علي الاغلب لا .", callback_data='aki_play_4')
         ],
-        [   InlineKeyboardButton("Back", callback_data= 'aki_play_5')
+        [   InlineKeyboardButton("- العوده .", callback_data= 'aki_play_5')
         ]
     ]
 )
@@ -71,8 +71,8 @@ AKI_PLAY_KEYBOARD = InlineKeyboardMarkup(
 AKI_WIN_BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Yes", callback_data='aki_win_y'),
-            InlineKeyboardButton("No", callback_data='aki_win_n'),
+            InlineKeyboardButton("- نعم .", callback_data='aki_win_y'),
+            InlineKeyboardButton("- لا .", callback_data='aki_win_n'),
         ]
     ]
 )
